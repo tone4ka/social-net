@@ -1,0 +1,14 @@
+.app-wrapper {    
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  display: grid;
+  grid-template-areas: 
+  "h h"
+  "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}

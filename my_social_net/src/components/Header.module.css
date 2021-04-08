@@ -1,0 +1,14 @@
+
+.header {
+    grid-area: h;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+  }
+  .logo_box{
+    margin-left: 20px;
+  }
+  .header .logo_box img {
+    width: 40px;
+    height: 40px;
+  }
