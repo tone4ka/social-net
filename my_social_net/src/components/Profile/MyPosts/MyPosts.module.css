@@ -1,0 +1,11 @@
+.content{
+    padding: 10px;
+}
+.new_post_box {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin: 5px 0;
+    width: 300px;
+}

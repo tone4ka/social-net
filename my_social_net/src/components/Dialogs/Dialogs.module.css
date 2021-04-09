@@ -1,0 +1,36 @@
+
+  .img_box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .img {
+    margin-top: -150px;
+    width: 100%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+  }
+  .messages {
+    margin: 5px;
+    padding: 0 10px 10px;
+    border-radius: 4px;
+    background-color: azure;
+  }
+  .dialogs {
+    margin: 5px;
+    padding: 0 10px 10px;
+    border-radius: 4px;
+    background-color: azure;
+  }
+  .dialogs a {
+    text-decoration: none;
+  }
+  .active {
+    color: gold !important;
+  } 
+  .ava {
+    height: 50px;
+    width: 50px;
+  }
